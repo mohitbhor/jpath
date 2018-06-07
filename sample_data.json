@@ -1,0 +1,39 @@
+{
+	"id": "0002",
+	"type": "donut",
+	"name": "Raised",
+	"ppu": 0.55,
+	"batters": {
+		"batter":
+		[{
+				"id": "1001",
+				"type": "Regular",
+				"someotherinfo":{
+						"dummykey":{"name":"val"},
+						"id":"200"
+				}
+			}
+		]
+	},
+	"topping":
+	[{
+			"id": "5001",
+			"type": "None",
+			"info":"value"
+		}, {
+			"id": "5002",
+			"type": "Glazed",
+			"info":"value"
+		}, {
+			"id": "5005",
+			"type": "Sugar"
+		}, {
+			"id": "5003",
+			"type": "Chocolate"
+		}, {
+			"id": "5004",
+			"type": "Maple",
+			"name":"just_like_that"
+		}
+	]
+}
