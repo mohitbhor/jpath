@@ -3,6 +3,18 @@ Japth -  helps you navigate the big json, search the key and hierarchy
 
 Refer the sample_data 
 
+## Evolution 
+      We keep on getting huge and complex JSON payloads.
+      Life was difficult while navigating through the multilevel complex JSON structures. 
+      Unlike XML, JSON doesn’t have the equivalent feature of XPATH.
+      So, we thought of building some library which can imitate some basic 
+      behaviour of XPATH on XML for our big and multilevel  JSON, if not all. We call it JPATH.
+      To start with, three features were on top of our mind:
+            1.	Flatten the full JSON Into Key value pair. 
+            2.	Search for a key and get the JPATH of it.
+            3.	Supply the JPATH and get the value for that JPATH.  
+
+
 ## python jpath.py  --h
 
       usage: jpath.py [-h] [-m MODE] [-k KEYNAME] [-j JPATH] [-f FILE]
