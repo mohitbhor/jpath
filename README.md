@@ -35,7 +35,7 @@ Refer the sample_data
   
   ## USAGE 1:
   
-  python jpath.py -m flatten -f sample_data.json
+  ### python jpath.py -m flatten -f sample_data.json
   
           {u'batters.batter[0].id': u'1001',
            u'batters.batter[0].someotherinfo.dummykey.name': u'val',
@@ -61,7 +61,7 @@ Refer the sample_data
   
   ## USAGE 2:
   
-  python jpath.py -m getjpath -k id -f sample_data.json
+  ### python jpath.py -m getjpath -k id -f sample_data.json
 
       The path till 'id'in the JSON is-
        >> id
@@ -75,15 +75,15 @@ Refer the sample_data
  
  
  ## USAGE 3:  
-  python jpath.py -m getelement -j topping[0].id -f sample_data.json
+  ### python jpath.py -m getelement -j topping[0].id -f sample_data.json
  
     >>[u'5001']
 
-  python jpath.py -m getelement -j topping[1to3].id -f sample_data.json
+  ### python jpath.py -m getelement -j topping[1to3].id -f sample_data.json
   
     >>[u'5002', u'5005', u'5003']
     
-  python jpath.py -m getelement -j topping[*].id -f sample_data.json
+  ### python jpath.py -m getelement -j topping[*].id -f sample_data.json
   
     >>[u'5001', u'5002', u'5005', u'5003', u'5004']
  
